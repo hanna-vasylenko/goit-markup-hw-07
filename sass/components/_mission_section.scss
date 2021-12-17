@@ -1,0 +1,42 @@
+.mission-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.mission-list {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-item:not(:last-child) {
+  margin-right: 30px;
+}
+.mission-item {
+  position: relative;
+}
+.modal-mision {
+  display: block;
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 110%);
+}
+
+.modal-mision h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  /* align-items: center; */
+  padding: 27px 82px 27px 83px;
+}

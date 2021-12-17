@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo dark">
+            <span class="accent">Web</span>Studio
+          </a>
+          <ul class="header-list site-nav list">
+            <li class="header-list-item">
+              <a href="./index.html" class="link header-link">Студия </a>
+            </li>
+            <li class="header-list-item">
+              <a
+                href="./portfolio.html"
+                class="link current current header-link"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-list-item">
+              <a href="" class="link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact list">
+          <li class="item contact-list-item">
+            <a class="contact-list-link link" href="mailto:info@devstudio.com"
+              ><svg class="contact-list-icon" width="16" height="12">
+                <use href="./images/svg/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="item contact-list-item">
+            <a class="contact-list-link link" href="tel:+380961111111"
+              ><svg class="contact-list-icon" width="10" height="16">
+                <use href="./images/svg/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- PORTFOLIO -->
+      <section class="section portfolio">
+        <div class="container">
+          <ul class="list portfolio-list">
+            <li class="portfolio-item">
+              <button class="portfolio-button button" type="button">Все</button>
+            </li>
+            <li class="portfolio-item">
+              <button class="portfolio-button button" type="button">
+                Веб-сайты
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button class="portfolio-button button" type="button">
+                Приложения
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button class="portfolio-button button" type="button">
+                Дизайн
+              </button>
+            </li>
+            <li class="portfolio-item">
+              <button class="portfolio-button button" type="button">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+
+          <ul class="work-list list">
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img.jpg"
+                    alt="Ноутбук открытый на старнице с портфолио"
+                    width="370"
+                  />
+                  <!-- MODAL WINDOW -->
+                  <div class="modal-portfolio">
+                    <p>
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для
+                      цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Технокряк</h3>
+                  <p class="work-list-text">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(1).jpg"
+                    alt="Постер с рисунком двух игроков в волейбол"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="work-list-text">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(2).jpg"
+                    alt="Лого Ресторана Seafood "
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Ресторан Seafood</h3>
+                  <p class="work-list-text">Приложение</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(3).jpg"
+                    alt="Наушники полноразмерные накладные"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Проект Prime</h3>
+                  <p class="work-list-text">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(4).jpg"
+                    alt="Картонные коробки"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Проект Boxes</h3>
+                  <p class="work-list-text">Приложение</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(5).jpg"
+                    alt="Монитор компьютера с изоображенной картой мира и указанными на ней точками"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Inspiration has no Borders</h3>
+                  <p class="work-list-text">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(6).jpg"
+                    alt="Открытый журнал с фото и большим текстом 'I Know I am Limited Edition'"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Издание Limited Edition</h3>
+                  <p class="work-list-text">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(7).jpg"
+                    alt="Бирка с надписью 'LAB EL TAG'"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Проект LAB</h3>
+                  <p class="work-list-text">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="work-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/portfolio/img(8).jpg"
+                    alt="Руки на клавиатуре открытого ноутбука, на его экране открыта страница Growing Business"
+                    width="370"
+                  />
+                  <div class="modal-portfolio">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Tempora ducimus non voluptate distinctio! Repellendus qui
+                      nesciunt suscipit aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="work-list-subtitle">Growing Business</h3>
+                  <p class="work-list-text">Приложение</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <!--Footer -->
+    <footer class="footer-page">
+      <div class="container footer">
+        <div>
+          <a href="index.html" class="logo bright">
+            <span class="accent">Web</span>Studio
+          </a>
+          <address class="contact">
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="link tel">
+              info@example.com</a
+            >
+            <a href="tel:+380991111111" class="link mail">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="social">
+          <h3>присоединяйтесь</h3>
+          <ul class="social-list">
+            <li class="social-item list">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item list">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item list">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item list">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/svg/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="join-container">
+          <h3>Подпишитесь на рассылку</h3>
+          <div class="join">
+            <input
+              class="join-input"
+              type="email"
+              name="userEmail"
+              placeholder="E-mail"
+            />
+            <button class="join-button button" type="button">
+              Подписаться
+            </button>
+            <svg class="join-icon" width="24" height="24">
+              <use href="./images/svg/icons.svg#icon-send"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

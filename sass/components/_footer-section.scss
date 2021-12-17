@@ -1,0 +1,138 @@
+.footer-page {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer p {
+  color: #ffffff;
+}
+.footer .link {
+  line-height: 1.71;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  margin-top: 9px;
+}
+
+address {
+  font-style: normal;
+}
+.contact {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+}
+.social-list {
+  display: flex;
+}
+
+.social-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social {
+  margin-left: 70px;
+}
+.social-icon {
+  fill: #ffffff;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.join {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.join-button {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  padding: 10px 56px 10px 36px;
+  min-width: 200px;
+  justify-content: center;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join-button:hover,
+.join-button:focus {
+  color: var(--accent-color);
+  background-color: var(--title-text-color);
+}
+
+.join-icon {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+}
+
+.join-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  padding-left: 16px;
+  color: #ffffff;
+}
+
+.join-container h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.join-container {
+  align-items: baseline;
+  margin-left: 93px;
+  width: 570px;
+  height: 86px;
+}
