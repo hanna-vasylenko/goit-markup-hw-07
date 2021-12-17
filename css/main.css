@@ -814,6 +814,10 @@ button {
   fill: var(--accent-color);
 }
 
+.modal__close-btn:hover svg {
+  fill: var(--accent-color);
+}
+
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -875,7 +879,7 @@ button {
   border: none;
 }
 
-.modal__policy {
+.modal-policy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -918,7 +922,7 @@ button {
   fill: var(--accent-color);
 }
 
-.modal-field {
+.modal__field {
   margin-bottom: 10px;
 }
 
