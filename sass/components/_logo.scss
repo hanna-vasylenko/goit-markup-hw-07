@@ -8,13 +8,14 @@
   margin-right: 93px;
 }
 
-.logo.dark {
+.logo--dark {
   color: var(--title-text-color);
 }
 
-.logo.bright {
+.logo--bright {
   color: #ffffff;
 }
-.accent {
+
+.logo__accent {
   color: var(--accent-color);
 }
