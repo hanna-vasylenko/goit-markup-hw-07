@@ -22,38 +22,38 @@
     <!-- HEADER -->
     <header class="header">
       <div class="container header__container">
-        <nav class="header__nav">
+        <nav class="header-nav">
           <a href="./index.html" class="logo logo--dark">
             <span class="logo__accent">Web</span>Studio
           </a>
-          <ul class="header__list site-nav list">
-            <li class="header__list-item">
-              <a href="./index.html" class="link header__link">Студия </a>
+          <ul class="header-nav__list site-nav list">
+            <li class="header-nav__item">
+              <a href="./index.html" class="header-nav__link link">Студия </a>
             </li>
-            <li class="header__list-item">
+            <li class="header-nav__item">
               <a
                 href="./portfolio.html"
-                class="link current current header__link"
+                class="link header-nav__link--current header-nav__link link"
                 >Портфолио</a
               >
             </li>
-            <li class="header__list-item">
-              <a href="" class="link">Контакты</a>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact list">
-          <li class="item contact__list-item">
-            <a class="contact__list-link link" href="mailto:info@devstudio.com"
-              ><svg class="contact__list-icon" width="16" height="12">
+        <ul class="contact-list list">
+          <li class="item contact-list__item">
+            <a class="contact-list__link link" href="mailto:info@devstudio.com"
+              ><svg class="contact-list__icon" width="16" height="12">
                 <use href="./images/svg/icons.svg#icon-envelope"></use>
               </svg>
-              info@devstudio.com</a
-            >
+              info@devstudio.com
+            </a>
           </li>
-          <li class="item contact__list-item">
-            <a class="contact__list-link link" href="tel:+380961111111"
-              ><svg class="contact__list-icon" width="10" height="16">
+          <li class="item contact-list__item">
+            <a class="contact-list__link link" href="tel:+380961111111"
+              ><svg class="contact-list__icon" width="10" height="16">
                 <use href="./images/svg/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -66,34 +66,36 @@
       <!-- PORTFOLIO -->
       <section class="section portfolio">
         <div class="container">
-          <ul class="list portfolio-list">
-            <li class="portfolio-item">
-              <button class="portfolio-button button" type="button">Все</button>
+          <ul class="list portfolio__list">
+            <li class="portfolio__item">
+              <button class="portfolio__button button" type="button">
+                Все
+              </button>
             </li>
-            <li class="portfolio-item">
-              <button class="portfolio-button button" type="button">
+            <li class="portfolio__item">
+              <button class="portfolio__button button" type="button">
                 Веб-сайты
               </button>
             </li>
-            <li class="portfolio-item">
-              <button class="portfolio-button button" type="button">
+            <li class="portfolio__item">
+              <button class="portfolio__button button" type="button">
                 Приложения
               </button>
             </li>
-            <li class="portfolio-item">
-              <button class="portfolio-button button" type="button">
+            <li class="portfolio__item">
+              <button class="portfolio__button button" type="button">
                 Дизайн
               </button>
             </li>
-            <li class="portfolio-item">
-              <button class="portfolio-button button" type="button">
+            <li class="portfolio__item">
+              <button class="portfolio__button button" type="button">
                 Маркетинг
               </button>
             </li>
           </ul>
 
           <ul class="work-list list">
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -112,12 +114,12 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Технокряк</h3>
-                  <p class="work-list-text">Веб-сайт</p>
+                  <h3 class="work-list__subtitle">Технокряк</h3>
+                  <p class="work-list__text">Веб-сайт</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -134,14 +136,14 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">
+                  <h3 class="work-list__subtitle">
                     Постер New Orlean vs Golden Star
                   </h3>
-                  <p class="work-list-text">Дизайн</p>
+                  <p class="work-list__text">Дизайн</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -158,12 +160,12 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Ресторан Seafood</h3>
-                  <p class="work-list-text">Приложение</p>
+                  <h3 class="work-list__subtitle">Ресторан Seafood</h3>
+                  <p class="work-list__text">Приложение</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -180,12 +182,12 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Проект Prime</h3>
-                  <p class="work-list-text">Маркетинг</p>
+                  <h3 class="work-list__subtitle">Проект Prime</h3>
+                  <p class="work-list__text">Маркетинг</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -202,12 +204,12 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Проект Boxes</h3>
-                  <p class="work-list-text">Приложение</p>
+                  <h3 class="work-list__subtitle">Проект Boxes</h3>
+                  <p class="work-list__text">Приложение</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -224,12 +226,14 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Inspiration has no Borders</h3>
-                  <p class="work-list-text">Дизайн</p>
+                  <h3 class="work-list__subtitle">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="work-list__text">Дизайн</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -246,12 +250,12 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Издание Limited Edition</h3>
-                  <p class="work-list-text">Дизайн</p>
+                  <h3 class="work-list__subtitle">Издание Limited Edition</h3>
+                  <p class="work-list__text">Дизайн</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -268,12 +272,12 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Проект LAB</h3>
-                  <p class="work-list-text">Маркетинг</p>
+                  <h3 class="work-list__subtitle">Проект LAB</h3>
+                  <p class="work-list__text">Маркетинг</p>
                 </div>
               </article>
             </li>
-            <li class="work-list-item">
+            <li class="work-list__item">
               <article class="card">
                 <div class="card-thumb">
                   <img
@@ -290,8 +294,8 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h3 class="work-list-subtitle">Growing Business</h3>
-                  <p class="work-list-text">Приложение</p>
+                  <h3 class="work-list__subtitle">Growing Business</h3>
+                  <p class="work-list__text">Приложение</p>
                 </div>
               </article>
             </li>

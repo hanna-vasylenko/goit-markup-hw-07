@@ -38,21 +38,19 @@
 
 .social {
   margin-left: 70px;
-}
-
-.social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social h3 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  & h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .join-container {
