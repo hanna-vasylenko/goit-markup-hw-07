@@ -9,19 +9,11 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
   }
-  &__subtitle {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  &__list {
+
+  &-list {
     display: flex;
 
-    &-item {
+    &__item {
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
@@ -29,10 +21,18 @@
         margin-right: 30px;
       }
     }
-  }
-
-  &__text {
-    text-align: center;
+    &__subtitle {
+      color: var(--title-text-color);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    &__text {
+      text-align: center;
+    }
   }
   &__subtitle p {
     font-size: 16px;
@@ -44,9 +44,11 @@
 .card {
   border: 1px solid #eeeeee;
   background-color: #ffffff;
-  padding-bottom: 32px;
   &-content {
     padding: 30px 30px 16px 30px;
+  }
+  &--team {
+    padding-bottom: 30px;
   }
 }
 .work-list .card-content {

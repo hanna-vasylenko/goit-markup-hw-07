@@ -6,36 +6,35 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.mission__list {
+.mission-list {
   display: flex;
   justify-content: center;
-}
-
-.mission__item {
-  position: relative;
-  &:not(:last-child) {
-    margin-right: 30px;
+  &__item {
+    position: relative;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
-}
-.mision__wraper {
-  display: block;
-  position: absolute;
-  background-color: rgba(47, 48, 58, 0.8);
-  height: 70px;
-  width: 370px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 110%);
-  & h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    /* align-items: center; */
-    padding: 27px 82px 27px 83px;
+  &__wraper {
+    display: block;
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    width: 370px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110%);
+    & h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #ffffff;
+      /* align-items: center; */
+      padding: 27px 82px 27px 83px;
+    }
   }
 }
